@@ -9,6 +9,15 @@ jobs:
         steps:
           - name: El agente se presenta
             run: echo "Hola, soy Lex Luthor y el lider de la legión mal."
-            
 
-
+          - name: Reporte de identidad
+            run: |
+                echo "Reporte de identidad del agente:"
+                echo "-------------------------------"
+                echo ""
+                echo "Nombre clave: ${{ github.actor}}"
+                echo ""
+                echo "Contexto del github"
+                echo "Repo: ${{ github.repository }}"
+                echo "Operacion: ${{ github.sha }}"
+                echo "Metadata: ${{ toJson(github) }}"
