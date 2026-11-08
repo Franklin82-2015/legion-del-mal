@@ -25,3 +25,7 @@ Spiderman es un personaje ficticio
 - Spiderman: spiderman 1
 - Spiderman: spiderman 2
 - Spiderman: spiderman 3
+
+## Estrategia recomendada
+
+Se recomienda centrarse en mejorar la agilidad y la fuerza del personaje
